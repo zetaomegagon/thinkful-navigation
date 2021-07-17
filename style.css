@@ -1,3 +1,37 @@
 body {
   margin: 0;
 }
+
+header {
+    background-color: red;
+    margin-botton: 40px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+header nav {
+    dislplay: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
