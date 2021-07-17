@@ -1,15 +1,16 @@
 body {
-  margin: 0;
+    margin: 0;
 }
 
 header {
-    background-color: red;
+    background-color: #0B1C51;
     margin-botton: 40px;
 }
 
 header h1 {
     color: white;
     text-align: center;
+    font-size: 52px;
     margin: 0;
     padding-top: 20px;
 }
@@ -28,10 +29,32 @@ header nav ul {
 
 header nav ul li a {
     color: white;
+    font-family: montserrat;
     text-decoration: none;
-    margin: 0 20px 0 0;
+    margin: 0 20px 0px 0;
 }
 
 header nav ul li:last-child a {
     margin-right: 0;
+}
+
+@media all and (min-width: 480px) {
+    header {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30px;
+    }
+
+    header h1 {
+	margin: 14px 0;
+	padding-top: 0;
+    }
+
+    header nav {
+	margin-top: 20px;
+    }
+    
+    header nav ul li a:hover {
+	color: #bdbdbd;
+    }
 }
